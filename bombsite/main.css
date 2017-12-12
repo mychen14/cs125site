@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	min-height: 100%;
+	display: flex;
+	background-image:url(images/flower.png);
+	background-size: cover;
+}
+
+#container h1 {
+	font-size: 80px;
+	position: relative;
+	top: 220px;
+	left: 25%;
+	opacity: .55;
+	color: rgba(108,40,41,1.00);
+}
+
+#container p {
+	position: absolute;
+	top: 350px;
+	left: 25%;
+	font-size: 90px;
+	color: rgba(108,40,41,1.00);
+	opacity: .55;
+	min-width: 950px; 
+}
+#home-left {
+	width: 30%;
+	background-color:rgba(5,57,6,0.20)
+}
+#sexyboi {
+	opacity: .9;
+}
+#home-right {
+	width: 100%;
+	//width: 70%;
+	
+}
+
+#container p, h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#home-right h1 {
+	font-size: 80px;
+	position: relative;
+	top: 220px;
+	left: 25%;
+	opacity: .55;
+	color: rgba(108,40,41,1.00);
+}
+#home-right p {
+	position: relative;
+	top: 250px;
+	left: 15%;
+	font-style:italic;
+	font-size: 4px;
+	color: rgba(108,40,41,1.00);
+	opacity: .55
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right; 10px;
+	font-size: 15pt;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+}
+nav a:hover {
+	color: #F8E4E4;
+}
+
+nav ul {
+	position: fixed; 
+	right: 20px;
+	top: 20px;
+	min-width: 450px;
+}
+
+
+#resume {
+	position: relative;
+	padding-top: 8%;
+	left: 25%;
+	opacity: .55;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: rgba(108,40,41,1.00);
+}
+
+#resume h2 ,h3 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: rgba(108,40,41,1.00);	
+}
+
+#resume ul{
+	list-style-type:none;
+}
+#resume li {
+	padding-top: 5px;
+}
+
+#resume-content {
+	padding-left: 30px;
+}
+
+#inspiration {
+	width: 80%;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+#shane {
+	height = "33%";
+	
+}
+
+#elliot {
+	height = "33%";
+}
+
+h4 {
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: rgba(108,40,41,1.00);
+	opacity: .55;
+	padding-bottom: 5px;
+}
+
+h5 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: rgba(108,40,41,1.00);
+	opacity: .55;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#inspiration img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#contact ul {
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	color: rgba(108,40,41,1.00);
+	opacity: .55;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#contact li {
+	list-style-type: none;
+}
